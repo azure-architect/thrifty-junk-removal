@@ -1,0 +1,21 @@
+{
+  "name": "base-snowpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.2",
+    "snowpack": "^3.7.1",
+    "wowjs": "^1.1.3"
+  }
+}

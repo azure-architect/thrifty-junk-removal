@@ -1,0 +1,27 @@
+
+
+.topBar {
+    color: white;
+}
+#note {
+    color: orangered;
+    width: 350px;
+    overflow: hidden;
+}
+#note small {
+    position: relative;
+    display: inline-block;
+    animation: mymove 7s infinite;
+    animation-timing-function: easex;
+  }
+  
+  @keyframes mymove {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 100%;
+    }
+  }
+
+  
